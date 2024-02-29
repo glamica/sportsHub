@@ -7,7 +7,7 @@ if (isset($_POST['cosultar'])) {
   if ($result) {
     while ($linha = mysqli_fetch_array($return)) {
       echo $linha['descricao'].'<br>'
-      echo $linha['valor'].'<br> <hr.';
+      echo $linha['valor'].'<br> <hr>';
   }
 }
 ?>
